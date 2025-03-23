@@ -7,7 +7,9 @@
         "php": ">=8.3"
     },
     "autoload": {
-        "Dikki\\Micro\\": "src/"
+        "psr-4": {
+            "Dikki\\Micro\\": "src/"
+        }
     },
     "config": {
         "sort-packages": true,
