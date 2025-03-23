@@ -1,0 +1,16 @@
+{
+    "name": "dikki/micro",
+    "description": "A simple micro class for APIs only",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=8.3"
+    },
+    "autoload": {
+        "Dikki\\Micro\\": "src/"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
